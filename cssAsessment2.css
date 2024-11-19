@@ -4,6 +4,7 @@ body {
     border:solid;
     border-width: 4px;
     border-color: goldenrod;
+    font-family: "playfair Display",serif;
 
 
 
@@ -28,9 +29,16 @@ header {
 
 .link a {
     text-decoration: none;
+    font-family: "Open sans";
     color: inherit;
 }
-
+.link a:hover{
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1px 2px 1px 2px;
+    
+}
 
 #introduction {
     font-family: "Open sans";
@@ -100,14 +108,16 @@ header {
     height: 60px;
 }
 
-#page2 p {
+#page2 #cta {
     display: flex;
     width: fit-content;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: "Open sans";
+    font-weight: 700;
     background-color: goldenrod;
     color: black;
     border-radius: 35px;
-    padding: 10px;
+    padding: 5px 12px 5px 12px;
     margin: auto;
     justify-content: center;
 
@@ -123,9 +133,13 @@ header {
     background-color: goldenrod;
     color: black;
     font-size: 30px;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
     margin: 20px;
+}
+#page2 li ul :hover{
+    font-size: 28px;
+    border-style: none;
 }
 
 main>h2 {
@@ -229,6 +243,50 @@ main>h2 {
     margin: 10px 30px 20px 10px;
     text-align:justify;
 }
+.sosmedgontor{
+    display: flex;
+    align-items: center;
+    background-color: goldenrod;
+}
+.sosmedgontor ul{
+    display: flex;
+    width: fit-content;
+    background-color: goldenrod;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+} 
+.sosmedgontor  .image {
+    width: auto;
+    height: 30px;
+    transition: 0.3s;
+}
+.sosmedgontor ul a .image :hover{
+    transform: scale(2);
+    box-shadow: 2px 2px 2px #811b1b;
+}
 #UAGall h2{
     text-align: center;
+    font-size: 30px;
 }
+.UAG{
+    display: flex;
+}
+.UAGtext{
+    margin: 30px;
+}
+.fotouag{
+    margin: 20px 50px 20px 30px;
+}
+.sosmeduag{
+    display: flex;
+    align-items: center;
+    background-color: goldenrod;
+}
+.sosmeduag ul{
+    display: flex;
+    width: fit-content;
+    background-color: goldenrod;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
