@@ -24,7 +24,6 @@ header {
     color: black;
     font-size: 20px;
 
-
 }
 
 .link a {
@@ -140,6 +139,10 @@ header {
 #page2 li ul :hover{
     font-size: 28px;
     border-style: none;
+}
+#page2 li ul :visited{
+    color: rgb(31, 25, 19);
+    text-decoration: underline;
 }
 
 main>h2 {
@@ -290,3 +293,7 @@ main>h2 {
     padding: 10px;
     margin: auto;
     justify-content: center;
+}
+#UAGall ~{
+    margin: 40px 200px 50px 200px;
+}
